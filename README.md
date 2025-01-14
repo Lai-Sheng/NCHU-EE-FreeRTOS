@@ -34,4 +34,4 @@ A FreeRTOS-based embedded system simulating the operations of a parking lot, inc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Lai-Sheng/NCHU-EE-FreeRTOS.git
+   git clone https://github.com/Lai-Sheng/Parking-Lot-Management-System-Based-On-FreeRTOS.git
