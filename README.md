@@ -33,18 +33,39 @@ You can watch the demo [here on YouTube](https://youtu.be/yUMBTbeqBns).
    - Queues to manage car data (ID, entry/exit times).
    - Message buffers to transfer processed data to the server.
 
-## Installation and Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Lai-Sheng/Parking-Lot-Management-System-Based-On-FreeRTOS.git
-
 ## Project Highlights
 
 - **Real-Time Multitasking**: Efficient task division using FreeRTOS.
 - **Resource Management**: Reliable synchronization with mutexes and event groups.
 - **Modular Design**: Clear separation of tasks for maintainability.
 - **Flexible Interaction**: Support for both basic and advanced display modes.
+
+
+## Example Output
+
+### Basic Mode
+
+
+Car is coming!
+  Car ID: 1234
+  Entry Time: 2500
+  Lots Number: 5
+
+Car is exiting!
+  Car ID: 1234
+  Entry Time: 2500
+  Exit Time: 3500
+### Advanced Mode
+=====================
+|  繳費機熱機完成    |
+=====================
+|     _________     |
+|    |         |    |
+|    |_________|    |
+|   [ 啟動成功 ]     |
+|   [ 10秒已完成]    |
+=====================
+
 
 ---
 
@@ -62,4 +83,7 @@ You can watch the demo [here on YouTube](https://youtu.be/yUMBTbeqBns).
 
 - **Lai Yuh Cherng** (賴育晟)  
   Contact: [a90483@gmail.com]
+
+## Background
+- This project was presented in Real-Time Operating System course taught by Professor Jichiang Tsai from National Chung Hsing University.
 
