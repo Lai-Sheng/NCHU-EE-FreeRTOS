@@ -1,6 +1,9 @@
 # Parking Lot Management System
 
 A FreeRTOS-based embedded system simulating the operations of a parking lot, including car entry, parking, tolling, and exit processes. The system is designed with multitasking, resource synchronization, and modularity for reliability and scalability.
+## Demo
+
+You can watch the demo [here on YouTube](https://youtu.be/yUMBTbeqBns).
 
 ## Features
 
@@ -35,3 +38,28 @@ A FreeRTOS-based embedded system simulating the operations of a parking lot, inc
 1. Clone the repository:
    ```bash
    git clone https://github.com/Lai-Sheng/Parking-Lot-Management-System-Based-On-FreeRTOS.git
+
+## Project Highlights
+
+- **Real-Time Multitasking**: Efficient task division using FreeRTOS.
+- **Resource Management**: Reliable synchronization with mutexes and event groups.
+- **Modular Design**: Clear separation of tasks for maintainability.
+- **Flexible Interaction**: Support for both basic and advanced display modes.
+
+---
+
+## Future Improvements
+
+- Integrate car plate recognition for automated entry and exit.
+- Expand the system to support larger parking lots.
+- Add database integration for long-term data storage and analytics.
+
+---
+
+
+
+## Author
+
+- **Lai Yuh Cherng** (賴育晟)  
+  Contact: [a90483@gmail.com]
+
